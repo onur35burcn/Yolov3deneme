@@ -31,7 +31,7 @@ if __name__ == '__main__':
 ```
 
 file [
-`native-lib.cpp`](https://github.com/mpj1234/ncnn-yolov13-android/blob/70137a45fdb8c08e4a7289d5eaf725565121a37c/app/src/main/cpp/native-lib.cpp#L164)
+`native-lib.cpp`](https://github.com/mpj1234/ncnn-yolov13-android/blob/133956d0ab0a027d4ff3519c4f234e3f77e4406b/app/src/main/cpp/native-lib.cpp#L170)
 
 ``` c++
 const int target_sizes[] =

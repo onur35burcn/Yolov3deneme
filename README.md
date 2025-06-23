@@ -19,7 +19,7 @@ Download the latest pnnx and put it in the `ultralytics` directory.
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    model = YOLO("./weights/yolov12n.pt")
+    model = YOLO("./weights/yolov13n.pt")
     model.export(**{
         'format': 'ncnn',
         'opset': 12,
@@ -31,7 +31,7 @@ if __name__ == '__main__':
 ```
 
 file [
-`native-lib.cpp`](https://github.com/mpj1234/ncnn-yolov13-android/blob/app/src/main/cpp/native-lib.cpp#L170)
+`native-lib.cpp`](https://github.com/mpj1234/ncnn-yolov13-android/blob/70137a45fdb8c08e4a7289d5eaf725565121a37c/app/src/main/cpp/native-lib.cpp#L164)
 
 ``` c++
 const int target_sizes[] =

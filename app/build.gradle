@@ -41,6 +41,13 @@ android {
         viewBinding true
     }
     ndkVersion '29.0.13113456 rc1'
+    sourceSets {
+        main {
+            assets {
+                srcDirs 'src\\main\\assets'
+            }
+        }
+    }
 }
 
 dependencies {
